@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE svg [<!ELEMENT foo ANY > <!ENTITY bar SYSTEM "file:///flag.txt">]>
+<parent xmlns="http://example.org"
+        xmlns:svg="http://www.w3.org/2000/svg">
+   <!-- parent contents here -->
+   <svg:svg width="4cm" height="8cm">
+      <svg:text>Hello, World! \n</svg:text>
+      <svg:text>Hello again, World!</svg:text>
+      <foo>&bar;</foo>
+   </svg:svg>
+   <!-- ... -->
+</parent>

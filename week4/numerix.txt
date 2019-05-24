@@ -1,0 +1,5 @@
+first: 0xdeadbeef in decimal is 3735928559
+second: 0x539 in decimal is 1337, but needs to be second half beacuse eax so 00001337
+third: 0xc0def001337beef in decimal is 3735928559
+fourth: solution is d0d0f0c0 so need to find what bitwise and with f0f0f0f0 is d0d0f0c0 which is 00000000d0d0f0c0, which yields 3503354048 in decimal
+flag{gl4d_you_d1dnt_n33d_to_p4rs3_w3ird_f0rmats_huh_5813b6c152dd}

